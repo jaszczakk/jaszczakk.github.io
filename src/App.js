@@ -28,12 +28,7 @@ const PageWrapper = styled.div`
   background-color: #e2e1e1;
   justify-content: center;
   align-items: center;
-  box-shadow: rgba(255, 192, 203, 0.3) 0px 0px 0px 5px,
-    rgba(255, 192, 203, 0.25) 0px 0px 0px 9px,
-    rgba(255, 192, 203, 0.2) 0px 0px 0px 13px,
-    rgba(255, 192, 203, 0.1) 0px 0px 0px 17px,
-    rgba(255, 192, 203, 0.05) 0px 0px 0px 22px;
-  /* box-shadow: rgba(255, 192, 203, 0.05) 0px 0px 0px 22px; */
+  box-shadow: rgba(255, 192, 203, 0.3) 0px 0px 15px 5px;
 `;
 
 const Headers = styled.div`
@@ -117,6 +112,19 @@ const Button = styled.button`
   }
 `;
 
+const Footer = styled.footer`
+  font-size: 11px;
+  font-style: italic;
+  padding-top: 20px;
+  margin: 0px auto;
+  text-align: justify;
+  background-color: #ead9db;
+  max-width: 750px;
+  padding: 15px 50px;
+  height: 100%;
+  box-shadow: rgba(255, 192, 203, 0.3) 0px 0px 15px 5px;
+`;
+
 const App = () => {
   return (
     <Router>
@@ -157,6 +165,16 @@ const App = () => {
           <Route path="/other" component={Other} />
           <Route path="/contact" component={Contact} />
         </PageWrapper>
+        <Footer>
+          Wyrażam zgodę na przetwarzanie danych osobowych zawartych w niniejszym
+          dokumencie do realizacji procesu rekrutacji zgodnie z ustawą z dnia 10
+          maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz.
+          1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady
+          (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób
+          fizycznych w związku z przetwarzaniem danych osobowych i w sprawie
+          swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
+          (RODO).
+        </Footer>
       </Body>
     </Router>
   );
