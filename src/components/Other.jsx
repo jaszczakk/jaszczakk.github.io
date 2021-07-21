@@ -1,13 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Header } from "./Experience";
-import kosiarka from "./kosiarka.jpg";
-import aktywna from "./aktywna.jpg";
-import odwazna from "./odwazna.jpg";
-import kon from "./kon.jpg";
-import lunch from "./lunch.jpg";
-import zyrafa from "./zyrafa.jpg";
-import kawa from "./kawa.jpg";
+import kosiarka from "../photos/kosiarka.jpg";
+import aktywna from "../photos/aktywna.jpg";
+import odwazna from "../photos/odwazna.jpg";
+import kon from "../photos/kon.jpg";
+import lunch from "../photos/lunch.jpg";
+import zyrafa from "../photos/zyrafa.jpg";
+import kawa from "../photos/kawa.jpg";
 
 const Cards = styled.div`
   display: flex;

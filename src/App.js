@@ -1,14 +1,14 @@
 import "./App.css";
-import myPhoto from "./myPhoto.jpg";
+import myPhoto from "./photos/myPhoto.jpg";
 import React from "react";
 import styled from "styled-components";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
-import Experience from "./Experience";
-import Start from "./Start";
-import Education from "./Education";
-import Skills from "./Skills";
-import Other from "./Other";
-import Contact from "./Contact";
+import Experience from "./components/Experience";
+import Start from "./components/Start";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Other from "./components/Other";
+import Contact from "./components/Contact";
 
 const Body = styled.div`
   background-image: url("https://images.pexels.com/photos/1036841/pexels-photo-1036841.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
