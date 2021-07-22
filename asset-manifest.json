@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a617e044.chunk.css",
+    "main.js": "/static/js/main.2e3bcd1c.chunk.js",
+    "main.js.map": "/static/js/main.2e3bcd1c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.90c96e80.js",
+    "runtime-main.js.map": "/static/js/runtime-main.90c96e80.js.map",
+    "static/js/2.e977abc7.chunk.js": "/static/js/2.e977abc7.chunk.js",
+    "static/js/2.e977abc7.chunk.js.map": "/static/js/2.e977abc7.chunk.js.map",
+    "static/js/3.439b516c.chunk.js": "/static/js/3.439b516c.chunk.js",
+    "static/js/3.439b516c.chunk.js.map": "/static/js/3.439b516c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.e977abc7.chunk.js.LICENSE.txt": "/static/js/2.e977abc7.chunk.js.LICENSE.txt",
+    "static/media/aktywna.e0eb4a33.jpg": "/static/media/aktywna.e0eb4a33.jpg",
+    "static/media/kawa.3012a8ed.jpg": "/static/media/kawa.3012a8ed.jpg",
+    "static/media/kon.37c0cc58.jpg": "/static/media/kon.37c0cc58.jpg",
+    "static/media/kosiarka.68e99372.jpg": "/static/media/kosiarka.68e99372.jpg",
+    "static/media/lunch.49bd236e.jpg": "/static/media/lunch.49bd236e.jpg",
+    "static/media/myPhoto.de436870.jpg": "/static/media/myPhoto.de436870.jpg",
+    "static/media/odwazna.96a110ba.jpg": "/static/media/odwazna.96a110ba.jpg",
+    "static/media/zyrafa.9f83e711.jpg": "/static/media/zyrafa.9f83e711.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.90c96e80.js",
+    "static/js/2.e977abc7.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.2e3bcd1c.chunk.js"
+  ]
+}
