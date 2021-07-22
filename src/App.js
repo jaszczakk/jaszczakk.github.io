@@ -2,7 +2,7 @@ import "./App.css";
 import myPhoto from "./photos/myPhoto.jpg";
 import React from "react";
 import styled from "styled-components";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { HashRouter as Router, Link, Route } from "react-router-dom";
 import Experience from "./components/Experience";
 import Start from "./components/Start";
 import Education from "./components/Education";
