@@ -9,6 +9,13 @@ import lunch from "../photos/lunch.jpg";
 import zyrafa from "../photos/zyrafa.jpg";
 import kawa from "../photos/kawa.jpg";
 
+const Title = styled(Header)`
+  @media (max-width: 992px) {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+`;
+
 const Cards = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +25,9 @@ const Cards = styled.div`
 const Box = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-top: 30px;
+  @media (max-width: 992px) {
+    margin: 20px auto;
+  }
 `;
 
 const MyImage = styled.img`
@@ -39,7 +49,7 @@ const Describe = styled.div`
 const Other = () => {
   return (
     <>
-      <Header>Jaka jestem</Header>
+      <Title>Jaka jestem</Title>
       <Cards>
         <Box>
           <MyImage src={kosiarka} alt="koszenie trawy" />

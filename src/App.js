@@ -50,6 +50,11 @@ const AnimatedHeader = styled.p`
       width: 0px;
     }
   }
+
+  @media (max-width: 992px) {
+    font-size: 20px;
+    margin-top: 25px;
+  }
 `;
 
 const SpacingHeader = styled(AnimatedHeader)`
@@ -73,6 +78,9 @@ const HeaderWrapper = styled.div`
   justify-content: center;
   padding: 10px;
   align-items: center;
+  @media (max-width: 992px) {
+    flex-direction: column;
+  }
 `;
 
 const Buttons = styled.div`

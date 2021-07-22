@@ -6,12 +6,19 @@ const Description = styled.div`
   font-family: "Courier New", monospace;
   margin-bottom: 50px;
   a {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
     text-decoration: none;
     color: black;
     font-style: italic;
     :hover {
       text-decoration: underline;
     }
+  }
+  ul {
+    padding-left: 15px;
   }
 `;
 
@@ -27,12 +34,12 @@ const Start = () => {
           github.
         </p>
         <p>
-          W repozytorium umieściłam również kod do strony{" "}
-          <a href="https://recalibratedbodies.com/wizard">
+          W repozytorium umieściłam również kod do strony
+          recalibratedbodies.com/wizard - tę część napisałam samodzielnie w
+          react i również ostylowałam według layoutu.
+          {/* <a href="https://recalibratedbodies.com/wizard">
             recalibratedbodies.com/wizard
-          </a>{" "}
-          - tę część napisałam samodzielnie w react i również ostylowałam według
-          layoutu.
+          </a>{" "} */}
         </p>
         <p>
           Dla recalibratedbodies.com stworzyłam również wizualną część w react
