@@ -103,6 +103,7 @@ const Button = styled.button`
   border-right: 1.5px solid #e0e0e0;
   border-top: 1.5px solid #e0e0e0;
   border-bottom: 1.5px solid #e0e0e0;
+  background-color: #eeeeee;
   &:first-child {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
