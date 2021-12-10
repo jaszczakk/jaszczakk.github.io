@@ -65,9 +65,9 @@ const Start = () => {
           się w sposób podstawowy komunikatywny, przeczytam dokumentację.
           Rozwijam swój język angielski na zajęciach z native speakerem. Jestem
           osobą odpowiedzialną i zdeterminowaną, chciałabym rozwijać się w
-          jakimś fajnym teamie. ;) Interesuje mnie programowanie , dlatego
+          jakimś fajnym teamie. :) Interesuje mnie programowanie , dlatego
           poświęciłam swoją karierę kontrolera finansowego na rzecz front-end
-          developera. :)
+          developera.
         </p>
         <p>
           W repozytorium umieściłam również kod do strony{" "}
