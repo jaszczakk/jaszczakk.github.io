@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div>
       <Header>Kontakt</Header>
-      <p>github.com/ksmidecka</p>
+      <p>github.com/jaszczakk</p>
       <p>tel. 669 015 381</p>
       <p>smidecka324@gmail.com</p>
     </div>

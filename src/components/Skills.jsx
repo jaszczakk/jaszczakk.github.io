@@ -9,11 +9,11 @@ const SkillsList = styled.ul`
 `;
 
 const skillsData = [
-  "Język angielski – podstawowy (czytanie dokumentacji technicznej), w trakcie nauki",
+  "Język angielski – podstawowy komunikatywny (czytanie dokumentacji technicznej), w trakcie nauki",
   "Język niemiecki– komunikatywny / B2 (Goethe-Zertifikat, poziom B2, 2017)",
   "Znajomość przepisów dot. ochrony danych osobowych",
   "Szkolenie MS Excel – Automatyzacja raportowania i analizy danych z użyciem VBA",
-  "Kurs z js, react na udemy",
+  "Kurs z js oraz react na udemy (Maximilian Schwarzmuller REACT, Samuraj Programowania js, react)",
 ];
 
 const Skills = () => {

@@ -50,11 +50,24 @@ const Start = () => {
     <div>
       <Description>
         <p>
-          Od 01.2021r. uczę się programowania jako front-end developer. Mam
-          opanowany css, html, znam podstawowe metody i struktury js. Potrafię
-          stworzyć komponenty w react. Znam podstawy git, graphQL. Ukończyłam
-          kurs na udemy z react i js, część zadań z tego kursu umieściłam na
-          github.
+          Od 01.2021r. intensywnie uczę się programowania jako front-end
+          developer, w react. Mam opanowane css, html, js , react w stopniu
+          dobrym. Pod okiem doświadczonego programisty wykonuję zadania dla
+          komercyjnych projektów. Potrafię tworzyć komponenty w react, korzystać
+          z hooków, stylować komponenty poprzez klasy, za pomocą
+          styled-components, znam w stopniu podstawowym bibliotekę Material-UI
+          oraz storybook. Znam również podstawy typescript. Poradzę sobie
+          również z pobieraniem i wyświetlaniem danych z systemu CMS przy użyciu
+          graphQL W wolnej chwili tworzę apkę webową dotyczącą definiowania KPI-
+          wykonałam jej schemat działania i widoki w Balsamiq Wireframes oraz
+          analizę SWOT, gdy dostanę od grafika szablony, będę kontynuować jej
+          rozwijanie. Chętnie o niej opowiem.;) W języku angielskim porozumiewam
+          się w sposób podstawowy komunikatywny, przeczytam dokumentację.
+          Rozwijam swój język angielski na zajęciach z native speakerem. Jestem
+          osobą odpowiedzialną i zdeterminowaną, chciałabym rozwijać się w
+          jakimś fajnym teamie. ;) Interesuje mnie programowanie , dlatego
+          poświęciłam swoją karierę kontrolera finansowego na rzecz front-end
+          developera. :)
         </p>
         <p>
           W repozytorium umieściłam również kod do strony{" "}
